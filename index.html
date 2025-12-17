@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Dragon d'Or - Restaurant chinois authentique offrant une cuisine traditionnelle raffinée dans une ambiance élégante">
+    <title>Dragon d'Or - Restaurant Chinois Authentique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-dragon"></i>
+                <span>Dragon d'Or</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#specialites" class="nav-link">Spécialités</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="cta-button">Réserver</button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-overlay"></div>
+        <img src="./img/restaurant.png" alt="Restaurant Interior" class="hero-bg">
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Bienvenue au</span>
+                <span class="title-main">Dragon d'Or</span>
+            </h1>
+            <p class="hero-subtitle">Une expérience culinaire chinoise authentique et raffinée</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Découvrir le Menu</button>
+                <button class="btn btn-secondary">Réserver une Table</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Notre Histoire</span>
+                <h2 class="section-title">L'Art de la Cuisine Chinoise</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">Depuis plus de 20 ans, le Dragon d'Or perpétue les traditions culinaires chinoises
+                        avec passion et authenticité.</p>
+                    <p>Notre chef, formé dans les meilleures écoles de Canton, vous propose une cuisine raffinée qui
+                        marie tradition et modernité. Chaque plat est préparé avec des ingrédients frais et de qualité
+                        supérieure.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Années d'expérience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Plats au menu</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5★</span>
+                            <span class="stat-label">Note moyenne</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialties Section -->
+    <section class="specialties" id="specialites">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nos Spécialités</span>
+                <h2 class="section-title">Plats Signature</h2>
+            </div>
+            <div class="specialty-grid">
+                <div class="specialty-card">
+                    <div class="card-image">
+                        <img src="./img/plat1.jpg" alt="Dim Sum">
+                        <div class="card-badge">Populaire</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Assortiment Dim Sum</h3>
+                        <p>Sélection de raviolis vapeur, shumai et rouleaux de printemps faits maison</p>
+                        <div class="card-footer">
+                            <span class="price">18€</span>
+                            <button class="btn-icon">Commander</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specialty-card">
+                    <div class="card-image">
+                        <img src="./img/plat2.jpg" alt="Canard Laqué">
+                        <div class="card-badge">Chef's Choice</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Canard Laqué de Pékin</h3>
+                        <p>Canard rôti à la perfection, peau croustillante et viande tendre</p>
+                        <div class="card-footer">
+                            <span class="price">32€</span>
+                            <button class="btn-icon">Commander</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specialty-card">
+                    <div class="card-image">
+                        <img src="./img/plat2.jpg" alt="Riz Cantonais">
+                    </div>
+                    <div class="card-content">
+                        <h3>Riz Cantonais aux Crevettes</h3>
+                        <p>Riz sauté avec crevettes fraîches, légumes croquants et œuf</p>
+                        <div class="card-footer">
+                            <span class="price">15€</span>
+                            <button class="btn-icon">Commander</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specialty-card">
+                    <div class="card-image">
+                        <img src="./img/restaurant.png" alt="Soupe de Nouilles">
+                    </div>
+                    <div class="card-content">
+                        <h3>Soupe de Nouilles Traditionnelle</h3>
+                        <p>Bouillon parfumé, nouilles fraîches, viande et légumes de saison</p>
+                        <div class="card-footer">
+                            <span class="price">14€</span>
+                            <button class="btn-icon">Commander</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Notre Carte</span>
+                <h2 class="section-title">Menu Complet</h2>
+            </div>
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="entrees">Entrées</button>
+                <button class="category-btn" data-category="plats">Plats Principaux</button>
+                <button class="category-btn" data-category="desserts">Desserts</button>
+                <button class="category-btn" data-category="boissons">Boissons</button>
+            </div>
+            <div class="menu-items" id="menuItems">
+                <!-- Menu items will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Témoignages</span>
+                <h2 class="section-title">Ce que disent nos clients</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Une expérience culinaire exceptionnelle ! Les saveurs sont authentiques
+                        et le service impeccable. Le canard laqué est à tomber par terre."</p>
+                    <div class="testimonial-author">
+                        <strong>Marie Dubois</strong>
+                        <span>Cliente régulière</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Le meilleur restaurant chinois de la ville sans aucun doute. L'ambiance
+                        est chaleureuse et les plats sont délicieux. Je recommande vivement !"</p>
+                    <div class="testimonial-author">
+                        <strong>Jean Martin</strong>
+                        <span>Amateur de cuisine asiatique</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Des dim sum incroyables et un service attentionné. C'est devenu notre
+                        restaurant préféré pour les occasions spéciales."</p>
+                    <div class="testimonial-author">
+                        <strong>Sophie Laurent</strong>
+                        <span>Foodie passionnée</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Nous Contacter</h2>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>123 Avenue des Champs-Élysées<br>75008 Paris, France</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+33 1 23 45 67 89</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <h4>Horaires</h4>
+                            <p>Lun - Ven: 12h - 14h30, 19h - 23h<br>Sam - Dim: 12h - 23h</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@dragondor.fr</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Réservation</h3>
+                    <form id="reservationForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nom complet" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Téléphone" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="date" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="time" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Nombre de personnes</option>
+                                <option value="1">1 personne</option>
+                                <option value="2">2 personnes</option>
+                                <option value="3">3 personnes</option>
+                                <option value="4">4 personnes</option>
+                                <option value="5">5 personnes</option>
+                                <option value="6+">6+ personnes</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message (optionnel)" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Réserver Maintenant</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-dragon"></i>
+                        <span>Dragon d'Or</span>
+                    </div>
+                    <p>Une expérience culinaire chinoise authentique depuis 2006</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#specialites">Spécialités</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i> Facebook</a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i> TripAdvisor</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Dragon d'Or. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
